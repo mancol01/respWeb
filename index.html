@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+       <link href="style.css", rel='stylesheet', type='text/css'>
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" title="" type="" />
+        <title>My UNIV Web</title>
+        
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="NavLinks">
+                  <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="Home">Home</a></li>
+                        <li><a href="About">About</a></li>
+                         <li><a href="Curriculum">Curriculum</a></li>
+                        <li><a href="Blog">Blog</a></li>
+                        <li><a href="Contact">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars"onclick="showMenu()"></i>
+            </nav>
+            
+            <div class="text-box"> <!-- another div for text box-->
+              <h1>World's biggest university</h1>
+              <p>We apologise for the challenges you may have experienced on the network. <br/>Normal service has since been restored. Any inconvenience caused is sincerely regretted</p>
+              <a href="Visit us to know more" class="visit-us-btn">Visit us to know more</a>
+            </div>
+             
+        </section>
+<!-------javascript for toggle menu_------->
+    <script>
+      var NavLinks=document.getElementById("NavLinks")
+      function showMenu(){
+        NavLinks.style.right = "0"
+      }
+      function hideMenu(){
+        NavLinks.style.right ="-200px"
+      }
+    </script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
